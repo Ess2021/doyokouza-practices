@@ -1,4 +1,3 @@
-using Internal;
 /*
 
 まとめの問題1 - 問題文
@@ -35,7 +34,7 @@ namespace practices {
 
             Console.WriteLine(b1 + b2 + b3);
             
-            if ((b1 + b2 +b3) % 2 == 0) {
+            if ((b1 + b2 + b3) % 2 == 0) {
                 Console.WriteLine("Even");
             } else {
                 Console.WriteLine("Odd");
