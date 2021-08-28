@@ -53,7 +53,7 @@ namespace practices {
         }
 
         static bool isAble (int time1, int time2, int place1, int place2) {
-            if (Math.Abs(time2 - time1) <= Math.Abs(place2 - place1) / 2) {
+            if (Math.Abs(time2 - time1) >= Math.Abs(place2 - place1) / 2) {
                 return true;
             } else {
                 return false;
