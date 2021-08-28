@@ -22,6 +22,7 @@ ableまたはunable
 ※ AtCoder Beginners Contest(ABC) 86 - C問題 より改題 (配列の知識がなくても解けるように改題しました。その結果めちゃめちゃ簡単になりました。)
 
 参考: (有理数qの絶対値) = Math.Abs(q)
+
 */
 
 using System;
