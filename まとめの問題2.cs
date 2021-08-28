@@ -21,6 +21,7 @@ ableまたはunable
 
 ※ AtCoder Beginners Contest(ABC) 86 - C問題 より改題 (配列の知識がなくても解けるように改題しました。その結果めちゃめちゃ簡単になりました。)
 
+参考: (有理数qの絶対値) = Math.Abs(q)
 */
 
 using System;
@@ -51,7 +52,7 @@ namespace practices {
         }
 
         static bool isAble (int time1, int time2, int place1, int place2) {
-            if (time2 - time1 <= (place2 - place1) / 2) {
+            if (Math.Abs(time2 - time1) <= Math.Abs(place2 - place1) / 2) {
                 return true;
             } else {
                 return false;
