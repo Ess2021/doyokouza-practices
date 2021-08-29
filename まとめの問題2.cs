@@ -21,7 +21,7 @@ ableまたはunable
 
 ※ AtCoder Beginners Contest(ABC) 86 - C問題 より改題 (配列の知識がなくても解けるように改題しました。その結果めちゃめちゃ簡単になりました。)
 
-参考: (qの絶対値) = Math.Abs(q)
+参考: (nの絶対値) = Math.Abs(n)
 
 */
 
